@@ -12,8 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SampleDependencyInjection"
         tools:targetApi="31"
-        android:name=".MyApplication"
-       >
+        android:name=".MyApplication">
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -24,5 +23,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

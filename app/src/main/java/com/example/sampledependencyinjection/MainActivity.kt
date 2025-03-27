@@ -18,7 +18,6 @@ class MainActivity : ComponentActivity() {
         val textView = findViewById<TextView>(R.id.textView)
         viewModel.users.observe(this, Observer { users ->
             Toast.makeText(this, "Fetched ${users.size} users", Toast.LENGTH_LONG).show()
-
             Log.d("", "onCreate: "+users.size)
         })
 
